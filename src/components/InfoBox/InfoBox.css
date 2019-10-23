@@ -1,0 +1,57 @@
+.info,
+.success,
+.warning,
+.error {
+  margin: 10px 0px;
+  padding: 12px;
+}
+.round {
+  border-radius: 10px;
+}
+.info {
+  color: #00529b;
+  background-color: #bde5f8;
+}
+.success {
+  color: #4f8a10;
+  background-color: #dff2bf;
+}
+.warning {
+  color: #9f6000;
+  background-color: #feefb3;
+}
+.error {
+  color: #d8000c;
+  background-color: #ffd2d2;
+}
+.info i,
+.success i,
+.warning i,
+.error i {
+  margin: 10px 22px;
+  font-size: 2em;
+  vertical-align: middle;
+}
+
+.infobox {
+  padding: 25px;
+}
+.pointer {
+  cursor: pointer;
+}
+
+.closebtn {
+  transition: all 0.5s ease;
+  display: inline-block;
+
+  text-align: right;
+  float: right;
+  margin-right: 5px;
+  margin-top: 5px;
+
+  cursor: pointer;
+}
+
+.closebtn:hover {
+  color: #462a00;
+}
