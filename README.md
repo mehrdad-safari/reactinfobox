@@ -4,8 +4,7 @@ InfoBox is an isolated fully customizable Reactjs component that you can easily 
 ## Screenshot
 
 ![screenshot](https://github.com/mehrdad-safari/reactinfobox/blob/master/public/screenshot3.png)
-![screenshot](https://github.com/mehrdad-safari/reactinfobox/blob/master/public/screenshot1.png)
-![screenshot](https://github.com/mehrdad-safari/reactinfobox/blob/master/public/screenshot2.png)
+
 
 ## How To Install
 you cant test it by downloading project and get in the main folder and run this commands:
@@ -20,29 +19,26 @@ or you can add (InfoBox) folder from components of project to your project and a
 ```
 import InfoBox from './components/InfoBox/InfoBox'
  
-<StickyBox >
+<InfoBox {props}>
 your Html
-</StickyBox>
+</InfoBox>
 
 ```
 
 Props :
 
 ```
- 
-        <InfoBox
-        type="error"     // type takes ( info / success / warning / error ) values with special styles for each of them
-        closeBtn="show"  // closeBtn if equal to (show) it is adding close button in the corner of the box
-        padding="35"     // padding for padding all things in the box. this take a value as a number 
-        corners="round"  // corners takes two value ( round / square ) for converting corner of box to round or square
-        image="https://yoururl/image.png"  
-        >
+ <InfoBox
+ type="error"     // type takes ( info / success / warning / error ) values with special styles for each of them
+ closeBtn="show"  // closeBtn if equal to (show) it is adding close button in the corner of the box
+ padding="35"     // padding for padding all things in the box. this take a value as a number 
+ corners="round"  // corners takes two value ( round / square ) for converting corner of box to round or square
+ image="https://yoururl/image.png"  
+  >
       
  
 ```
-
-
-
+ 
 ## App React Features:
 * react v16.9
 * react hooks
